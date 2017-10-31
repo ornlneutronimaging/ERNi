@@ -1,4 +1,4 @@
-PyQtGuiBase
+ERNi
 ======
 
 Everything needed to start developping a PyQt application

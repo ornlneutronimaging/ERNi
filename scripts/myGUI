@@ -8,7 +8,7 @@ try:
     import PyQt4.QtCore as QtCore
     import PyQt4.QtGui as QtGui
     from PyQt4.QtGui import QMainWindow as QMainWindow
-    from PyQt4.QtGui import QApplication 
+    from PyQt4.QtGui import QApplication
 except:
     import PyQt5
     import PyQt5.QtCore as QtCore
@@ -20,7 +20,6 @@ import mygui.interfaces.ui_mainWindow
 
 
 class MainWindow(QMainWindow, mygui.interfaces.ui_mainWindow.Ui_MainWindow):
-
     def __init__(self):
         """ Initialization
         Parameters
@@ -36,10 +35,11 @@ class MainWindow(QMainWindow, mygui.interfaces.ui_mainWindow.Ui_MainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    #app.setWindowIcon(PyQt4.QtGui.QIcon(":/icon.png"))
+    # app.setWindowIcon(PyQt4.QtGui.QIcon(":/icon.png"))
     application = MainWindow()
     application.show()
     app.exec_()
+
 
 if __name__ == '__main__':
     main()

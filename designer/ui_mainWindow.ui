@@ -26,7 +26,19 @@
      <height>0</height>
     </size>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout"/>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>120</y>
+      <width>93</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Import...</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -43,6 +55,13 @@
      <verstretch>0</verstretch>
     </sizepolicy>
    </property>
+   <widget class="QMenu" name="menuERNi">
+    <property name="title">
+     <string>ERNi</string>
+    </property>
+    <addaction name="actionPreferences"/>
+   </widget>
+   <addaction name="menuERNi"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="action1_Data">
@@ -91,6 +110,11 @@
   <action name="action3_Normalized_Data">
    <property name="text">
     <string>3. Normalized Data</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences</string>
    </property>
   </action>
  </widget>
