@@ -114,7 +114,7 @@
      <string>Calculate price</string>
     </property>
    </widget>
-   <widget class="QLabel" name="price_label_2">
+   <widget class="QLabel" name="tax_label">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -147,61 +147,13 @@
     <property name="title">
      <string>ERNi</string>
     </property>
-    <addaction name="actionPreferences"/>
+    <addaction name="actionPreference"/>
    </widget>
    <addaction name="menuERNi"/>
   </widget>
-  <action name="action1_Data">
+  <action name="actionPreference">
    <property name="text">
-    <string>1. Data</string>
-   </property>
-  </action>
-  <action name="action2_Normalization">
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <property name="text">
-    <string>2. Normalization</string>
-   </property>
-  </action>
-  <action name="action3_Binning">
-   <property name="text">
-    <string>4. Binning</string>
-   </property>
-  </action>
-  <action name="action4_Fitting">
-   <property name="text">
-    <string>5. Fitting</string>
-   </property>
-  </action>
-  <action name="action5_Results">
-   <property name="text">
-    <string>6. Strain Mapping</string>
-   </property>
-  </action>
-  <action name="actionAbout">
-   <property name="text">
-    <string>About ...</string>
-   </property>
-  </action>
-  <action name="action1_Raw_Data">
-   <property name="text">
-    <string>1. Raw Data</string>
-   </property>
-  </action>
-  <action name="action2_Normalization_2">
-   <property name="text">
-    <string>2. Normalization</string>
-   </property>
-  </action>
-  <action name="action3_Normalized_Data">
-   <property name="text">
-    <string>3. Normalized Data</string>
-   </property>
-  </action>
-  <action name="actionPreferences">
-   <property name="text">
-    <string>Preferences</string>
+    <string>Preference</string>
    </property>
   </action>
  </widget>

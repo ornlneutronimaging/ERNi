@@ -108,7 +108,7 @@ ENV/
 .idea/**/ERNi.iml
 .idea/**/misc.xml
 .idea/**/modules.xml
-.idea/**/vcs.xml
+#.idea/**/vcs.xml
 .DS_Store
 
 # Sensitive or high-churn files:
