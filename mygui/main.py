@@ -1,6 +1,6 @@
 from PyQt5 import QtCore, QtGui,  QtWidgets  # Import the PyQt5 module we'll need
 import sys  # We need sys so that we can pass argv to QApplication
-import ui_mainWindow  # This file holds our MainWindow and all design related things
+from erni.interfaces import ui_mainWindow  # This file holds our MainWindow and all design related things
 import os
 
 # it also keeps events etc that we defined in Qt Designer
